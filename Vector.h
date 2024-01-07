@@ -1,5 +1,7 @@
 #pragma once
 
+class Vector3f;
+
 /// \brief A geometric object that has length and direction that can be used to represent positions and/or directions in 2d.
 class Vector2f
 {
