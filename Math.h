@@ -36,7 +36,7 @@ namespace math
 		return static_cast<Type>(std::ceilf(value));
 	}
 
-	/// \brief Rounds value to the nearest whole value towards +infinity to the nearest multiplier.
+	/// \brief Rounds value to the nearest multiplier towards +infinity.
 	template<typename Type = float>
 	inline Type Ceiling(const float value, const float multiplier) noexcept
 	{
@@ -50,7 +50,7 @@ namespace math
 		return static_cast<Type>(std::floorf(value));
 	}
 
-	/// \brief Rounds value to the nearest whole value towards -infinity to the nearest multiplier.
+	/// \brief Rounds value to the nearest multiplier towards -infinity.
 	template<typename Type = float>
 	inline Type Floor(const float value, const float multiplier) noexcept
 	{
